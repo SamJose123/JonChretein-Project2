@@ -16,8 +16,8 @@
         <header class="banner">
             <div class="banner__avatar">
                <center><img src="images/avatar.jpg" class="u-img-rounded" alt="Black and white avatar." height="120" width="120"></center>
-                <p class="banner__greeting display-1">👋 Hello</p> 
-                <h1 class="banner__title lead">My name is Jon Chretien. I’m a <a href="https://en.wikipedia.org/wiki/New_York_City" target="_blank" rel="noopener noreferrer">NYC</a> based front end engineer currently working on web apps for artists at <a href="https://www.spotify.com/" target="_blank" rel="noopener noreferrer">Spotify</a>. I previously built editorial &amp; marketing projects at <a href="https://www.nytimes.com/" target="_blank" rel="noopener noreferrer">The New York Times</a>.</h1>
+                <h2 class="banner__greeting display-1">👋 Hello</h2> 
+                <h2 class="banner__title lead">My name is Jon Chretien. I’m a <a href="https://en.wikipedia.org/wiki/New_York_City" target="_blank" rel="noopener noreferrer">NYC</a> based front end engineer currently working on web apps for artists at <a href="https://www.spotify.com/" target="_blank" rel="noopener noreferrer">Spotify</a>. I previously built editorial &amp; marketing projects at <a href="https://www.nytimes.com/" target="_blank" rel="noopener noreferrer">The New York Times</a>.</h2>
             </div>
         </header>
     </div>
@@ -28,7 +28,7 @@
     <div class="wrapper">
         <div class="grid__item heading">
             <!-- heading of grid -->
-            <h2 class="_title">Selected Works</h2>
+            <h2 class="_title"></h2>Selected Works</h2>
         </div>
 
        <div class="box">
@@ -167,7 +167,7 @@
         <h2 class="_title">Photography</h2>
        </div>
    
-       <div class="grid-item">
+       <div class="grid-item" style="float:left">
             <a href="https://www.instagram.com/p/1yqGl6IdQ4/" target="_blank" rel="noopener noreferrer">
              <img class="figure__thumbnail" src="images/stripes.jpg"  alt="Black and white photo from my photography portfolio.">
             </a>   
@@ -186,7 +186,7 @@
             </a>
        </div>
 
-       <div class="grid-item">
+       <div class="grid-item" style="float:left">
             <a href="https://www.instagram.com/p/BITHP8PB_M9/" target="_blank" rel="noopener noreferrer">
              <img class="figure__thumbnail" src="images/ballerina.jpg"  alt="Black and white photo from my photography portfolio.">
             </a>
@@ -206,13 +206,13 @@
 
    <!-- Selection of music currently listening to -->
    <div class="music-grid">
-       <div class="grid__item music">
+       <div class="grid-item-heading">
             <h2 class="_title">Currently Listening</h2>
        </div>
 
        <div class="album">
             <a href="https://open.spotify.com/album/2B0fUi0BSwxK2HGNtaFApb" target="_blank" rel="noopener noreferrer">
-             <img src="images/ed73696e637e57372b1dac5026f8848241c75417" height="300px" width="300px" alt="Album cover art.">
+             <img src="images/ed73696e637e57372b1dac5026f8848241c75417"  alt="Album cover art.">
             </a>
             <br>
             <div class="release-name">
@@ -225,7 +225,7 @@
 
        <div class="album">
             <a href="https://open.spotify.com/album/0SsFgST749MQC6oN9PLHLf" target="_blank" rel="noopener noreferrer">
-             <img src="images/b8fdb9c4467c35499c2a554e7ae68842a15c2f62" height="300px" width="300px" alt="Album cover art.">
+             <img src="images/b8fdb9c4467c35499c2a554e7ae68842a15c2f62"  alt="Album cover art.">
             </a>
             <br>
             <div class="release-name">
@@ -237,7 +237,7 @@
 
        <div class="album">
             <a href="https://open.spotify.com/album/28enuddLPEA914scE6Drvk" target="_blank" rel="noopener noreferrer">
-             <img src="images/659f05e9ce15d0b81ea191937c2c3a3aecec160c" height="300px" width="300px" alt="Album cover art.">
+             <img src="images/659f05e9ce15d0b81ea191937c2c3a3aecec160c"  alt="Album cover art.">
             </a>
             <br>
             <div class="release-name">
@@ -249,7 +249,7 @@
 
        <div class="album">
             <a href="https://open.spotify.com/album/6kf46HbnYCZzP6rjvQHYzg" target="_blank" rel="noopener noreferrer">
-             <img src="images/5026fddc6c0b69e931ae99130f15d4214f1e7d41" height="300px" width="300px" alt="Album cover art.">
+             <img src="images/5026fddc6c0b69e931ae99130f15d4214f1e7d41"  alt="Album cover art.">
             </a>
             <br>
             <div class="release-name">
@@ -265,14 +265,12 @@
 
    <!-- Footer for contact details and extertanl links to personal profiles -->
    <footer class="footer">
-    <nav>
-        
+    <nav class="links">  
         <a href="mailto:contact@jonchretien.com" target="_blank" rel="noopener noreferrer">Email</a>
 
         <a href="https://github.com/jonchretien" target="_blank" rel="noopener noreferrer">Github</a>
 
-        <a href="https://www.instagram.com/jonchretien/" target="_blank" rel="noopener noreferrer">Instagram</a>
-        
+        <a href="https://www.instagram.com/jonchretien/" target="_blank" rel="noopener noreferrer">Instagram</a>  
     </nav>
     <div class="footer__copyright">
         © Jon Chretien&nbsp;<span id="copyright">2018</span><script>(function(){document.getElementById("copyright").textContent=(new Date).getFullYear()})();</script>
