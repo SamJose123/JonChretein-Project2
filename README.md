@@ -13,7 +13,7 @@ Built with
 Visual Studio 
 
 Contribute
-If there are any constructive criticism that could help me in the future please do not hesitate to comment. Here's a link  https://samjose123.github.io/JonChretein-Project2/
+If there are any constructive criticism that could help me in the future please do not hesitate to comment. Here's a link  https://samjose123.github.io/JonChretein-Project2/idex.html
 
 Credits
  © Jon Chretien 2018
