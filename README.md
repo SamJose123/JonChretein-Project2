@@ -1,23 +1,25 @@
 # JonChretein-Project2
 
-Jon Chretein
+## Jon Chretein
 Practicing my HTML and CSS skills by rebuilding the website jonchretien.com
 
 
 
-Tech/framework used
+## Tech/framework used
 HTML
 CSS
 
-Built with
+## Built with
 Visual Studio 
 
-Contribute
-If there are any constructive criticism that could help me in the future please do not hesitate to comment. Here's a link  https://samjose123.github.io/JonChretein-Project2/
+## Contribute
+If there are any constructive criticism that could help me in the future please do not hesitate to comment. 
+-Here's a link :
+- https://samjose123.github.io/JonChretein-Project2/index.html
 
-Credits
+## Credits
  © Jon Chretien 2018
 
 
-License
+## License
 © Samantha Joseph 2018
